@@ -2,7 +2,7 @@
 	import '@fundamental-styles/fn/dist/fn-link.css';
 
 	/**
-	 * Set to true if the Title text should wrap instead of truncate
+	 * Set to true to emphasize link
 	 * @type {boolean}
 	 */
 	export let emphasized: boolean = false;
