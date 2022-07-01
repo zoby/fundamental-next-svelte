@@ -3,10 +3,6 @@
 	import { BusyIndicator } from '$lib';
 
 	const parameters = {
-		viewMode: 'docs',
-		previewTabs: {
-			canvas: { hidden: true }
-		},
 		docs: {
 			description: {
 				component: "	import { BusyIndicator } from 'fundamental-next-svelte';"
