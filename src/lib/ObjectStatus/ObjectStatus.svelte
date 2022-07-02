@@ -2,7 +2,7 @@
 	import '@fundamental-styles/fn/dist/fn-object-status.css';
 
 	/**
-	 * Specify the kind of button
+	 * Specify the kind of object status
 	 * @type {"info" | "positive" | "critical" | "negative"}
 	 * @required
 	 */

@@ -1,5 +1,6 @@
 export { default as BusyIndicator } from './BusyIndicator/BusyIndicator.svelte';
 export { Button, ButtonSegmented } from './Button';
+export { default as InfoLabel } from './InfoLabel/InfoLabel.svelte';
 export { default as Input } from './Input/Input.svelte';
 export { default as Link } from './Link/Link.svelte';
 export { default as ObjectStatus } from './ObjectStatus/ObjectStatus.svelte';
