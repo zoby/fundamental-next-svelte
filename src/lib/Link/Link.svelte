@@ -2,6 +2,13 @@
 	import '@fundamental-styles/fn/dist/fn-link.css';
 
 	/**
+	 * Specify the href value
+	 * @type {string}
+	 * @required
+	 */
+	export let href: string;
+
+	/**
 	 * Set to true to emphasize link
 	 * @type {boolean}
 	 */
@@ -15,4 +22,4 @@
 	};
 </script>
 
-<a href={$$restProps.href} {...props}><slot /></a>
+<a {href} {...props} on:click on:mouseover on:mouseenter on:mouseleave on:focus><slot /></a>
