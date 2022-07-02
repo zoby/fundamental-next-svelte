@@ -54,7 +54,7 @@
 	};
 </script>
 
-<button {...props}>
+<button {...props} on:click on:mouseover on:mouseenter on:mouseleave on:focus>
 	{#if iconBeforeText}
 		<slot name="icon" />
 	{/if}
