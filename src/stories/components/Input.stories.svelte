@@ -15,6 +15,10 @@
 			name: 'input',
 			control: false
 		},
+		event_change: {
+			name: 'change',
+			control: false
+		},
 		event_keydown: {
 			name: 'keydown',
 			control: false

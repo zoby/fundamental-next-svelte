@@ -7,6 +7,26 @@
 			name: 'default',
 			description: 'Set the link value',
 			control: false
+		},
+		event_click: {
+			name: 'click',
+			control: false
+		},
+		event_mouseover: {
+			name: 'mouseover',
+			control: false
+		},
+		event_mouseenter: {
+			name: 'mouseenter',
+			control: false
+		},
+		event_mouseleave: {
+			name: 'mouseleave',
+			control: false
+		},
+		event_focus: {
+			name: 'focus',
+			control: false
 		}
 	};
 	const parameters = {
