@@ -68,6 +68,15 @@
 	</div>
 </Story>
 
+<Story name="Byline">
+	<div>
+		<ObjectStatus state="positive" byline>Positive</ObjectStatus>
+		<ObjectStatus state="critical" byline>Critical</ObjectStatus>
+		<ObjectStatus state="negative" byline>Negative</ObjectStatus>
+		<ObjectStatus state="info" byline>Info</ObjectStatus>
+	</div>
+</Story>
+
 <style>
 	div {
 		display: flex;

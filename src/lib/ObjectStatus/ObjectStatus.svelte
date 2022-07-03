@@ -14,11 +14,18 @@
 	 */
 	export let interactive: boolean = false;
 
+	/**
+	 * Set to true to set as byline
+	 * @type {boolean}
+	 */
+	export let byline: boolean = false;
+
 	$: props = {
 		...$$restProps,
 		class: [
 			'fn-object-status',
 			interactive && 'fn-object-status--interactive',
+			byline && 'fn-object-status--byline',
 			['info', 'positive', 'critical', 'negative'].indexOf(state) > -1 &&
 				`fn-object-status--${state}`,
 			$$restProps.class
