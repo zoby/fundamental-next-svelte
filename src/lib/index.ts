@@ -5,6 +5,7 @@ export { default as InfoLabel } from './InfoLabel/InfoLabel.svelte';
 export { default as Input } from './Input/Input.svelte';
 export { default as Link } from './Link/Link.svelte';
 export { default as MessageStrip } from './MessageStrip/MessageStrip.svelte';
+export { default as MessageToast } from './MessageToast/MessageToast.svelte';
 export { default as ObjectStatus } from './ObjectStatus/ObjectStatus.svelte';
 export { default as Shell } from './Shell/Shell.svelte';
 export { default as Title } from './Title/Title.svelte';
