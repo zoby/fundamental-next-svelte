@@ -14,12 +14,13 @@
 	export let value: boolean = false;
 
 	$: props = {
+		tabindex: 0,
 		...$$restProps,
 		class: ['fn-checkbox', $$restProps.class].filter(Boolean).join(' ')
 	};
 </script>
 
-<label class="fn-checkbox" tabindex="0">
+<label {...props}>
 	<input
 		class="fn-checkbox__input"
 		type="checkbox"
