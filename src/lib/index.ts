@@ -5,5 +5,6 @@ export { default as InfoLabel } from './InfoLabel/InfoLabel.svelte';
 export { default as Input } from './Input/Input.svelte';
 export { default as Link } from './Link/Link.svelte';
 export { default as ObjectStatus } from './ObjectStatus/ObjectStatus.svelte';
+export { RadioItem, RadioGroup } from './Radio';
 export { default as Shell } from './Shell/Shell.svelte';
 export { default as Title } from './Title/Title.svelte';
