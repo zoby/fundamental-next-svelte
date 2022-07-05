@@ -34,7 +34,13 @@
 			.join(' ')
 	};
 
-	$: iconClass = `sap-icon sap-icon--status-${state}`;
+	$: iconClass = [
+		'sap-icon',
+		['positive', 'critical', 'negative'].indexOf(state) > -1 && `sap-icon--status-${state}`,
+		state === 'info' && 'sap-icon--information'
+	]
+		.filter(Boolean)
+		.join(' ');
 </script>
 
 <div {...props} on:click on:mouseover on:mouseenter on:mouseleave on:focus>
