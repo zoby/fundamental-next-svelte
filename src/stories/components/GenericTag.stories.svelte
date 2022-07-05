@@ -45,17 +45,17 @@
 <Meta title="Components/Generic Tag" component={GenericTag} {argTypes} {parameters} />
 
 <Template let:args>
-	<GenericTag {...args} />
+	<GenericTag {...args}>Generic Tag</GenericTag>
 </Template>
 
-<Story name="Default" source args={{ text: 'Generic Tag', number: '42k' }} />
+<Story name="Default" source args={{ number: '42k' }} />
 
 <Story name="States">
 	<div>
-		<GenericTag state="positive" text="Generic Tag" number="42k" />
-		<GenericTag state="critical" text="Generic Tag" number="42k" />
-		<GenericTag state="negative" text="Generic Tag" number="42k" />
-		<GenericTag state="info" text="Generic Tag" number="42k" />
+		<GenericTag state="positive" number="42k">Generic Tag</GenericTag>
+		<GenericTag state="critical" number="42k">Generic Tag</GenericTag>
+		<GenericTag state="negative" number="42k">Generic Tag</GenericTag>
+		<GenericTag state="info" number="42k">Generic Tag</GenericTag>
 	</div>
 </Story>
 
