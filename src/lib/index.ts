@@ -1,6 +1,7 @@
 export { default as BusyIndicator } from './BusyIndicator/BusyIndicator.svelte';
 export { Button, ButtonSegmented } from './Button';
 export { Checkbox, CheckboxGroup } from './Checkbox';
+export { default as GenericTag } from './GenericTag/GenericTag.svelte';
 export { default as InfoLabel } from './InfoLabel/InfoLabel.svelte';
 export { default as Input } from './Input/Input.svelte';
 export { default as Link } from './Link/Link.svelte';
