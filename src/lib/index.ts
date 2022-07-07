@@ -5,6 +5,7 @@ export { default as GenericTag } from './GenericTag/GenericTag.svelte';
 export { default as InfoLabel } from './InfoLabel/InfoLabel.svelte';
 export { default as Input } from './Input/Input.svelte';
 export { default as Link } from './Link/Link.svelte';
+export { List, ListGroup, ListItem } from './List';
 export { default as MessageStrip } from './MessageStrip/MessageStrip.svelte';
 export { default as MessageToast } from './MessageToast/MessageToast.svelte';
 export { default as ObjectStatus } from './ObjectStatus/ObjectStatus.svelte';
