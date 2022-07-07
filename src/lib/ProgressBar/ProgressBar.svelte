@@ -4,13 +4,13 @@
 	/**
 	 * Specify the kind of object status
 	 * @type {"positive" | "critical" | "negative"}
-	 * @required
 	 */
 	export let state: string = '';
 
 	/**
 	 * Set the value of the progress bar 0 - 100
 	 * @type {number}
+	 * @required
 	 */
 	export let value: number = 0;
 
