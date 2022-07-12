@@ -12,5 +12,7 @@ export { default as ObjectStatus } from './ObjectStatus/ObjectStatus.svelte';
 export { default as ProgressBar } from './ProgressBar/ProgressBar.svelte';
 export { default as Search } from './Search/Search.svelte';
 export { default as Shell } from './Shell/Shell.svelte';
+export { Table, TableRow, TableCell, TableHeader, TableGroup } from './Table';
+export { Tabs, Tab } from './Tabs';
 export { default as Textarea } from './Textarea/Textarea.svelte';
 export { default as Title } from './Title/Title.svelte';
