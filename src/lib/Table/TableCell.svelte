@@ -14,7 +14,7 @@
 	/**
 	 * Set true to set cell as end container
 	 */
-	export let end: boolean = false;
+	export let endContainer: boolean = false;
 
 	$: props = {
 		...$$restProps,
@@ -30,7 +30,7 @@
 </script>
 
 <td {...props}>
-	{#if !end}
+	{#if !endContainer}
 		<slot />
 	{:else}
 		<div class="fn-table__end-container">
